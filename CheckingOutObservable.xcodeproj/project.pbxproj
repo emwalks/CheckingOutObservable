@@ -47,6 +47,7 @@
 		987215A92B2F2DE400380535 /* CheckingOutObservableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingOutObservableUITests.swift; sourceTree = "<group>"; };
 		987215AB2B2F2DE400380535 /* CheckingOutObservableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingOutObservableUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		987215B92B2F2F1C00380535 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		987215BC2B2F321D00380535 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 				9872158D2B2F2DE200380535 /* CheckingOutObservableApp.swift */,
 				9872158F2B2F2DE200380535 /* ContentView.swift */,
 				987215932B2F2DE400380535 /* CheckingOutObservable.entitlements */,
+				987215BC2B2F321D00380535 /* README.md */,
 			);
 			path = CheckingOutObservable;
 			sourceTree = "<group>";
