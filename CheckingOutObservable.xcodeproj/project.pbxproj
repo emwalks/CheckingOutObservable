@@ -14,6 +14,7 @@
 		987215A02B2F2DE400380535 /* CheckingOutObservableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872159F2B2F2DE400380535 /* CheckingOutObservableTests.swift */; };
 		987215AA2B2F2DE400380535 /* CheckingOutObservableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987215A92B2F2DE400380535 /* CheckingOutObservableUITests.swift */; };
 		987215AC2B2F2DE400380535 /* CheckingOutObservableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987215AB2B2F2DE400380535 /* CheckingOutObservableUITestsLaunchTests.swift */; };
+		987215BA2B2F2F1C00380535 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987215B92B2F2F1C00380535 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		987215A52B2F2DE400380535 /* CheckingOutObservableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckingOutObservableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		987215A92B2F2DE400380535 /* CheckingOutObservableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingOutObservableUITests.swift; sourceTree = "<group>"; };
 		987215AB2B2F2DE400380535 /* CheckingOutObservableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingOutObservableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		987215B92B2F2F1C00380535 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +97,10 @@
 		9872158C2B2F2DE200380535 /* CheckingOutObservable */ = {
 			isa = PBXGroup;
 			children = (
+				987215B82B2F2EF900380535 /* Utils */,
 				9872158D2B2F2DE200380535 /* CheckingOutObservableApp.swift */,
 				9872158F2B2F2DE200380535 /* ContentView.swift */,
-				987215912B2F2DE400380535 /* Assets.xcassets */,
 				987215932B2F2DE400380535 /* CheckingOutObservable.entitlements */,
-				987215942B2F2DE400380535 /* Preview Content */,
 			);
 			path = CheckingOutObservable;
 			sourceTree = "<group>";
@@ -127,6 +128,16 @@
 				987215AB2B2F2DE400380535 /* CheckingOutObservableUITestsLaunchTests.swift */,
 			);
 			path = CheckingOutObservableUITests;
+			sourceTree = "<group>";
+		};
+		987215B82B2F2EF900380535 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				987215942B2F2DE400380535 /* Preview Content */,
+				987215912B2F2DE400380535 /* Assets.xcassets */,
+				987215B92B2F2F1C00380535 /* Launch Screen.storyboard */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987215BA2B2F2F1C00380535 /* Launch Screen.storyboard in Resources */,
 				987215962B2F2DE400380535 /* Preview Assets.xcassets in Resources */,
 				987215922B2F2DE400380535 /* Assets.xcassets in Resources */,
 			);
@@ -419,7 +431,7 @@
 				CODE_SIGN_ENTITLEMENTS = CheckingOutObservable/CheckingOutObservable.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CheckingOutObservable/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CheckingOutObservable/Utils/Preview Content\"";
 				DEVELOPMENT_TEAM = Q3USALQAVD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -430,6 +442,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -457,7 +470,7 @@
 				CODE_SIGN_ENTITLEMENTS = CheckingOutObservable/CheckingOutObservable.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CheckingOutObservable/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CheckingOutObservable/Utils/Preview Content\"";
 				DEVELOPMENT_TEAM = Q3USALQAVD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -468,6 +481,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
