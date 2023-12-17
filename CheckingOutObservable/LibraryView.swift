@@ -25,17 +25,15 @@ struct LibraryView: View {
     @Environment(\.library) private var library
     
     var body: some View {
-        VStack {
             NavigationStack {
-                VStack {
-                    Text("Books available: \(library.availableBooksCount)")
-                    List(library.books) { book in
-                        NavigationLink(book.title, destination: BookView(book: book)).foregroundColor(Color(uiColor: book.color))
-                    }
+                Text("Books available: \(library.availableBooksCount)")
+                List(library.books) { book in
+                    NavigationLink(book.title, destination: BookView(book: book))
+                        .foregroundColor(Color(uiColor: book.color)
+                    )
                 }
                 .navigationTitle("Surf Library")
             }
-        }
     }
 }
 
