@@ -2,7 +2,7 @@
 
 Having a play with the new Observable Framework
 
-## Resources
+##  Resources
 
 https://developer.apple.com/documentation/SwiftUI/Managing-model-data-in-your-app
 
