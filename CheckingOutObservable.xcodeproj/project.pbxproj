@@ -15,6 +15,11 @@
 		987215AA2B2F2DE400380535 /* CheckingOutObservableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987215A92B2F2DE400380535 /* CheckingOutObservableUITests.swift */; };
 		987215AC2B2F2DE400380535 /* CheckingOutObservableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987215AB2B2F2DE400380535 /* CheckingOutObservableUITestsLaunchTests.swift */; };
 		987215BA2B2F2F1C00380535 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 987215B92B2F2F1C00380535 /* Launch Screen.storyboard */; };
+		987215BE2B2F359F00380535 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987215BD2B2F359F00380535 /* BookModel.swift */; };
+		987215C02B2F36DB00380535 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987215BF2B2F36DB00380535 /* BookView.swift */; };
+		987215C22B2F374E00380535 /* LibraryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987215C12B2F374E00380535 /* LibraryModel.swift */; };
+		987215C42B2F376D00380535 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987215C32B2F376D00380535 /* LibraryView.swift */; };
+		987215C62B2F424D00380535 /* BookEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987215C52B2F424D00380535 /* BookEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		987215A92B2F2DE400380535 /* CheckingOutObservableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingOutObservableUITests.swift; sourceTree = "<group>"; };
 		987215AB2B2F2DE400380535 /* CheckingOutObservableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingOutObservableUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		987215B92B2F2F1C00380535 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		987215BD2B2F359F00380535 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		987215BF2B2F36DB00380535 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookView.swift; path = Utils/BookView.swift; sourceTree = "<group>"; };
+		987215C12B2F374E00380535 /* LibraryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryModel.swift; sourceTree = "<group>"; };
+		987215C32B2F376D00380535 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		987215C52B2F424D00380535 /* BookEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,14 @@
 		9872158C2B2F2DE200380535 /* CheckingOutObservable */ = {
 			isa = PBXGroup;
 			children = (
-				987215B82B2F2EF900380535 /* Utils */,
 				9872158D2B2F2DE200380535 /* CheckingOutObservableApp.swift */,
 				9872158F2B2F2DE200380535 /* ContentView.swift */,
+				987215BD2B2F359F00380535 /* BookModel.swift */,
+				987215BF2B2F36DB00380535 /* BookView.swift */,
+				987215C52B2F424D00380535 /* BookEditView.swift */,
+				987215C12B2F374E00380535 /* LibraryModel.swift */,
+				987215C32B2F376D00380535 /* LibraryView.swift */,
+				987215B82B2F2EF900380535 /* Utils */,
 				987215932B2F2DE400380535 /* CheckingOutObservable.entitlements */,
 			);
 			path = CheckingOutObservable;
@@ -271,8 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987215C22B2F374E00380535 /* LibraryModel.swift in Sources */,
+				987215C62B2F424D00380535 /* BookEditView.swift in Sources */,
+				987215BE2B2F359F00380535 /* BookModel.swift in Sources */,
 				987215902B2F2DE200380535 /* ContentView.swift in Sources */,
 				9872158E2B2F2DE200380535 /* CheckingOutObservableApp.swift in Sources */,
+				987215C42B2F376D00380535 /* LibraryView.swift in Sources */,
+				987215C02B2F36DB00380535 /* BookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
