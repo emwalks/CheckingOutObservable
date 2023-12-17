@@ -8,6 +8,8 @@ https://developer.apple.com/documentation/SwiftUI/Managing-model-data-in-your-ap
 
 https://developer.apple.com/documentation/SwiftUI/Migrating-from-the-observable-object-protocol-to-the-observable-macro
 
+https://developer.apple.com/documentation/swiftui/monitoring-model-data-changes-in-your-app
+
 https://www.wwdcnotes.com/notes/wwdc23/10149/
 
 https://developer.apple.com/videos/play/wwdc2023/10149/
